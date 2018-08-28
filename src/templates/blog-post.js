@@ -20,7 +20,7 @@ export default function Template({ pathContext }) {
 
       <img
         style={{
-          width: '100%',
+          width: '200',
           paddingTop: '1em',
         }}
         src={post.frontmatter.image}
@@ -34,7 +34,7 @@ export default function Template({ pathContext }) {
           paddingRight: '2em',
         }}
       >
-        <h2>{post.frontmatter.date}</h2>
+        <h2 style={{}}>{post.frontmatter.date}</h2>
         <h2>{post.frontmatter.author}</h2>
       </div>
       <div className="blog-post-container">
